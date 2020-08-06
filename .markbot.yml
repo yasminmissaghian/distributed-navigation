@@ -1,0 +1,38 @@
+repo: "distributed-navigation"
+canvasCourse: "web-design-2"
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - border-box
+  - body-margin-0
+  - nav-hover
+
+html:
+  - path: "index.html"
+    locked: true
+
+css:
+  - path: "css/main.css"
+    has:
+      - ["html", "font-family", "sans-serif"]
+      - "header"
+      - "header h1"
+      - "header img"
+      - "header p"
+      - "nav ul"
+      - "nav a"
+    search:
+      - "display: flex"
+      - "justify-content"
+      - "align-items"
+      - "auto"
+      - "margin"
+      - "padding"
+      - "background-color"
+
+screenshots:
+  - path: "index.html"
+    sizes: [960, 1440]
