@@ -19,6 +19,7 @@ deliverables: '1 HTML file, 1 CSS file, images'
 
 - *Typefaces:* `sans-serif`
 - *Text sizes:* `1.125rem`
+- *Line-heights:* `1.5`
 - *Colours:* `#e2e2e2`, `#0074d9`, `#fff`
 - *Margins:* `.5rem`
 - *Paddings:* `1rem`, `.75em 1em .6em`
